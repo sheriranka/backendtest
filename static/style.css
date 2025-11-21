@@ -1,0 +1,33 @@
+/* static/style.css */
+
+/* Icons */
+.action-icon {
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.action-icon:hover {
+    color: #000;
+    transform: scale(1.15);
+}
+
+.delete-icon {
+    color: #8b0000;
+}
+
+.delete-icon:hover {
+    color: #b30000;
+}
+
+/* Table edges slightly rounded */
+table {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+body {
+    padding-bottom: 40px;
+}
